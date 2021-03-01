@@ -33,6 +33,7 @@ body {
     padding: 0 2rem;
     margin: 0 auto;
     height: 100%;
+    overflow: hidden;
     position: relative;
 }
 
@@ -54,7 +55,6 @@ body {
 
 .text-box__subheading {
     color: #fff;
-    font-size: 1.7rem;
     max-width: 50rem;
 }
 
@@ -72,6 +72,7 @@ body {
     font-size: 1.5rem;
     padding: 0 1rem;
 }
+
 .donate-form input[type="text"],
 .donate-form input[type="email"],
 .donate-form input[type="number"] {
@@ -89,4 +90,38 @@ body {
     padding: 0 2rem;
     cursor: pointer;
     width: 27%;
+}
+
+/* MEDIA QUERIES - RESPONSIVENESS */
+
+@media screen and (max-width: 768px) {
+    .text-box__heading {
+        font-size: 4rem;
+    }
+
+    .text-box__subheading {
+        font-size: 1.55rem;
+    }
+
+    .donate-form input {
+        display: block;
+    }
+
+    .donate-form input[type="text"],
+    .donate-form input[type="email"],
+    .donate-form input[type="number"] {
+        margin-right: 0;
+        margin-bottom: 2rem;
+        width: 95%;
+    }
+
+    .donate-form input[type="submit"] {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-box__heading {
+        font-size: 3rem;
+    }
 }
