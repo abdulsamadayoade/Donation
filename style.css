@@ -44,12 +44,21 @@ body {
     max-width: 80rem;
 }
 
+.text-box__preheading {
+    color: #ef9f43;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-family: "DM Sans Bold", sans-serif;
+    margin-bottom: 1.5rem;
+}
+
 .text-box__heading {
     color: #fff;
     font-size: 5rem;
     font-family: "DM Sans Bold", sans-serif;
     font-weight: 900;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 4rem;
 }
 
@@ -95,6 +104,10 @@ body {
 /* MEDIA QUERIES - RESPONSIVENESS */
 
 @media screen and (max-width: 768px) {
+    .text-box__preheading {
+        font-size: 1.55rem;
+    }
+
     .text-box__heading {
         font-size: 4rem;
     }
