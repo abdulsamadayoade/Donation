@@ -1,12 +1,12 @@
 /*                                 FONTS                             */
 @font-face {
     font-family: "DM Sans Regular";
-    src: url("/textfonts/DMSans-Regular.ttf") format("truetype");
+    src: url("textfonts/DMSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "DM Sans Bold";
-    src: url("/textfonts/DMSans-Bold.ttf") format("truetype");
+    src: url("textfonts/DMSans-Bold.ttf") format("truetype");
 }
 
 * {
